@@ -1,5 +1,3 @@
-package main;
-
 import java.util.Scanner;
 
 public class Atv01 {
@@ -18,5 +16,7 @@ public class Atv01 {
         float total = precoUnitario * qtdProduto;
 
         System.out.println("Total a ser pago: " + total);
+
+        scanner.close();
     }
 }

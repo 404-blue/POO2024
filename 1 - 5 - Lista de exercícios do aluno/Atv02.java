@@ -1,5 +1,3 @@
-package main;
-
 import java.util.Scanner;
 
 public class Atv02 {
@@ -20,5 +18,7 @@ public class Atv02 {
         int perimetro = lado1 + lado2 + lado3;
 
         System.out.println("Perimetro do triangulo: " + perimetro);
+
+        scanner.close();
     }
 }

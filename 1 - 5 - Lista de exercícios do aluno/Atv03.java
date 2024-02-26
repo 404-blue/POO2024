@@ -1,5 +1,3 @@
-package main;
-
 import java.util.Scanner;
 
 public class Atv03 {
@@ -14,5 +12,7 @@ public class Atv03 {
         dolares = reais / 5.05f;
 
         System.out.println("Valor correspondente: " + dolares + " dolares.");
+
+        scanner.close();
     }
 }
