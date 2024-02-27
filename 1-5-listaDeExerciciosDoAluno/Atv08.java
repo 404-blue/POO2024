@@ -12,6 +12,14 @@ public class Atv08 {
         System.out.println("Digite a segunda nota:");
         nota2 = scanner.nextFloat();
 
-        System.out.println("");
+        System.out.println("Digite a terceira nota:");
+        nota3 = scanner.nextFloat();
+
+        mediaFinal = nota1 * 2 + nota2 * 3 + nota3 * 5;
+        mediaFinal = mediaFinal / 10;
+
+        scanner.close();
+
+        System.out.println("Media final: " + mediaFinal);
     }
 }
