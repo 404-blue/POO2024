@@ -1,4 +1,5 @@
 package exerciciosDoAluno1a5;
+
 import java.util.Scanner;
 
 public class Atv09 {
@@ -18,9 +19,9 @@ public class Atv09 {
          anos = scanner.nextInt();
 
          montante = principal * (float) Math.pow(1 + taxaJuros, anos);
-         
-         scanner.close();
 
         System.out.printf("O montante final é: %.2f\n", montante);
+        
+        scanner.close();
     }
 }

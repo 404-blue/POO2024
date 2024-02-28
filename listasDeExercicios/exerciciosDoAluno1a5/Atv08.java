@@ -1,4 +1,5 @@
 package exerciciosDoAluno1a5;
+
 import java.util.Scanner;
 
 public class Atv08 {
@@ -19,8 +20,8 @@ public class Atv08 {
         mediaFinal = nota1 * 2 + nota2 * 3 + nota3 * 5;
         mediaFinal = mediaFinal / 10;
 
+        System.out.printf("Media final: %.2f\n", mediaFinal);
+        
         scanner.close();
-
-        System.out.println("Media final: " + mediaFinal);
     }
 }

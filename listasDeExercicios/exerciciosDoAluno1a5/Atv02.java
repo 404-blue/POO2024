@@ -1,4 +1,5 @@
 package exerciciosDoAluno1a5;
+
 import java.util.Scanner;
 
 public class Atv02 {
