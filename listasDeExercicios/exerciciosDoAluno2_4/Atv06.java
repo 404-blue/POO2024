@@ -23,5 +23,4 @@ public class Atv06 {
     
         scanner.close();    
     }
-
 }

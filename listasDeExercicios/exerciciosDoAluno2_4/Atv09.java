@@ -10,7 +10,7 @@ public class Atv09 {
         String mes, estacao;
 
         System.out.println("Digite o nome de um mes: (ex. janeiro, fevereiro, etc)");
-        mes = scanner.toString().toLowerCase();
+        mes = scanner.nextLine().toLowerCase();
 
         switch (mes) {
             case "junho":
@@ -38,11 +38,11 @@ public class Atv09 {
                 break;
 
             default:
-                estacao = "Mês inválido";
+                estacao = "Mes invalido";
                 break;
         }
 
-        System.out.println("O mês de " + mes + " pertence à estação " + estacao + ".");
+        System.out.println("Estacao: " + estacao + ".");
 
         scanner.close();
     }
