@@ -21,7 +21,7 @@ public class Atv08 {
         mediaFinal = mediaFinal / 10;
 
         System.out.printf("Media final: %.2f\n", mediaFinal);
-        
+
         scanner.close();
     }
 }
